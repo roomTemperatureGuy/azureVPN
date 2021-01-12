@@ -1,2 +1,2 @@
 # azureVPN
-Deploy a OpenVPN client on Ubuntu Virtual Machine on Azure
+Deploy a OpenVPN server on Ubuntu Virtual Machine on Azure
