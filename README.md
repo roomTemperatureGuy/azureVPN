@@ -12,7 +12,7 @@ Login to your Azure account on the [Azure portal](https://portal.azure.com).
 
 If you're lazy just click the button below:
 
-![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fniitish%2FazureVPN%2Fmain%2Ftemplate.json)
 
 1. Click on 'Create a resource' and select Ubuntu Server 18.04 LTS.
 2. Basic setup:
@@ -25,7 +25,7 @@ If you're lazy just click the button below:
     * In **Authetication type** select SSH public key and then put a **Username**.
     * For our VPN to work properly, we need to **Select inbound ports**, choose HTTP, HTTPS and SSH.
     * Click **Next : Disks**.
-3. Nothing to change here. Click **Next : Networking**
+3. Nothing to change in **Disks**. Click **Next : Networking**
 4. To connect to our VPN and to see Pi-hole stats, we will need a static IP. Click **Create new** under **Public IP**. Now select **Static** in **Assignment**.
 
     ![Create public IP address](/images/networking.png)
