@@ -9,11 +9,6 @@ First we will need to set up a virtual machine.
 Login to your Azure account on the [Azure portal](https://portal.azure.com).
 
 ### Setting Up Virual Machine
-
-If you're lazy just click the button below:
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fniitish%2FazureVPN%2Fmain%2Ftemplate.json)
-
 1. Click on 'Create a resource' and select Ubuntu Server 18.04 LTS.
 2. Basic setup:
 
