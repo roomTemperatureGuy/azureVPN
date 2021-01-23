@@ -27,3 +27,13 @@ Login to your Azure account on the [Azure portal](https://portal.azure.com).
 5. Now click **Next : Management**.
 6. Make sure that **Auto-shutdown** is left unchecked.
 7. Now click **Review + create** button.
+
+### Setting up VM login
+1. Once the VM is deployed, go to **Reset password** in **Support + troubleshooting** group.
+2. In **Mode**, select **Reset password** and enter the username which was created during **Basic setup**.
+3. Click **Update**.
+
+### Opening port for VPN connection
+1. Go to **Networking** in **Settings** group.
+2. Under **Inbound port rules** click **Add inbound port rules**.
+    ![Add inbound security rule](/images/port rules.jpg)
