@@ -10,7 +10,8 @@ Login to your Azure account on the [Azure portal](https://portal.azure.com).
 
 ### Setting Up Virual Machine
 1. Click on 'Create a resource' and select Ubuntu Server 18.04 LTS.
-2. Basic setup: 
+2. Basic setup:
+
 ![Basic setup](/images/basics.png)
 * In **Resource group** select or create a group. It will contain every file related to your vm.
 * Give your vm a name in **Virtual machine name**.
