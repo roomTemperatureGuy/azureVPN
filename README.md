@@ -38,3 +38,7 @@ Login to your Azure account on the [Azure portal](https://portal.azure.com).
 2. Under **Inbound port rules** click **Add inbound port rules**.
 
     ![Add inbound security rule](/images/port_rules.png)
+    * In **Destination port ranges**, enter 51820 (as it is the default port used by Wireguard).
+    * In **Protocol** select **UDP**.
+    * Click **Add**.
+    
