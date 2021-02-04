@@ -34,6 +34,6 @@ Login to your Azure account on the [Azure portal](https://portal.azure.com).
 3. Click **Update**.
 
 ### Opening port for VPN connection
-1. Go to **Networking** in **Settings** group.
+1. Go to **Networking** in **Settings** group. 
 2. Under **Inbound port rules** click **Add inbound port rules**.
-    ![Add inbound security rule](/images/port rules.jpg)
+    ![Add inbound security rule](/images/port_rules.jpg)
